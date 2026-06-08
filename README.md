@@ -38,6 +38,3 @@ A new habit object is created.
 The habit is added to the habits array.
 The list is re-rendered.
 
-CSS3
-
-JavaScript (Vanilla JavaScript)
