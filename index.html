@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2 class="total">HABIT TRACKER</h2>
+<p class="total">
+Total: <span id="total">0</span> <br>
+Done: <span id="done">0</span> <br>
+Progress: <span id="percent">0%</span>
+</p>
+
+<h2>RECORD YOUR HABITS</h2>
+<ul id="list"></ul>
+
+
+
+    <form class="myform">
+
+    <input class="HABIT" placeholder="HABIT NAME"> 
+    <p id="error"></p>
+        <input class="TARGET" type="number" placeholder="TARGET DAYS" min="1" max="7">
+    </div>
+
+    <div>
+        <select class="CATEGORY">
+            <option value="">Habits category</option>
+            <option value="Health">Health</option>
+            <option value="Study">Study</option>
+            <option value="Finance">Finance</option>
+
+        </select>
+    </div>
+    <button class="btn1" type="button" onclick="addHabit()">Add Habit</button>
+   
+</form>
+<script src="script.js"></script>
+</body>
+</html>

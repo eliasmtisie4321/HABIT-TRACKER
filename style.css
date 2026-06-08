@@ -1,0 +1,57 @@
+body{
+        font-family: Arial, sans-serif;
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #f4f4f4;
+    }
+
+
+#error{
+    color: red;
+}
+.myform{
+   background:rgb(206, 204, 204);
+        padding:15px;
+        border-radius:10px;
+        margin-bottom:20px;
+        display:flex;
+        flex-direction:column;
+        gap: 15px;
+}
+.HABIT{
+ padding: 10px;
+border-radius: 30px;
+text-align: center;
+font-weight:bold;
+
+}
+
+
+.TARGET{
+    padding:10px 15px;
+    border-radius: 30px;
+    width:830px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.btn1{
+
+   padding:10px 15px;
+    border-radius: 30px;
+    font-weight:bold;
+}
+.CATEGORY{
+    width:860px;
+    padding: 10px;
+   font-weight:bold;
+   border-radius: 30px;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.total{
+    font-weight: 900;
+    text-align: center;
+
+}
